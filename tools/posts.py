@@ -3,7 +3,7 @@
 
   posts.py                 list upcoming and recent posts
   posts.py hold <id>       keep a post from publishing (until released)
-  posts.py release <id>    put a held or failed post back in the queue
+  posts.py release <id>    put a held, failed or missed post back in the queue (then move it to a new time)
   posts.py move <id> "2026-10-20 12:15"
   posts.py drop <id>       remove a post that hasn't been published
 Changes are committed and pushed (pass --no-push to skip the push).
