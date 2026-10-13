@@ -20,7 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "publisher"))
 from common import MEDIA, QUEUE, ROOT, TZ, load_all, save  # noqa: E402
 
-ICON = {"queued": "·", "hold": "‖", "published": "✓", "failed": "✗"}
+ICON = {"queued": "·", "hold": "‖", "published": "✓", "failed": "✗", "missed": "–"}
 
 
 def find(pid: str) -> dict:

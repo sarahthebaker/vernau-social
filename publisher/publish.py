@@ -3,6 +3,7 @@
 Environment:
   IG_USER_ID, IG_TOKEN   Instagram professional account id and long-lived token (GitHub Secrets)
   PAGES_BASE             public base URL of this repo on GitHub Pages, e.g. https://you.github.io/vernau-social
+  A post more than max_late_hours past its time is marked "missed" instead (no bursts of old posts).
   DRY_RUN=1              log what would happen, publish nothing (also the default when the secrets are missing)
 
 Exit code 1 if anything failed, so GitHub emails the repo owner.
@@ -86,6 +87,12 @@ def main() -> int:
     print(f"{t:%Y-%m-%d %H:%M %Z} · {len(due)} due · {'DRY RUN' if dry else 'LIVE'}")
     failed = False
     for it in due:
+        late = (t - datetime.fromisoformat(it["publish_at"])).total_seconds() / 3600
+        if late > SCHEDULE["max_late_hours"]:
+            it.update(status="missed", error=f"{late:.0f} h late (limit {SCHEDULE['max_late_hours']} h); not published. Use tools/posts.py move or release.")
+            save(it)
+            print(f"– {it['id']}: missed ({late:.0f} h late)")
+            continue
         missing = [m for m in it["media"] if not (ROOT / m).exists()]
         if missing:
             it.update(status="failed", error=f"missing files: {missing}")
