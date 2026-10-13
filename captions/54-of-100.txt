@@ -1,0 +1,13 @@
+We measured the websites of 141 Swiss construction and architecture firms. Every column in this video is one of them, at its real height.
+
+The average mobile score was 54 out of 100. Seven sites scored 90 or more. Fifty-seven scored under 50.
+
+The score comes from Google Lighthouse, the same tool behind PageSpeed Insights, and we ran it three times per site to take the middle result. It measures how quickly and smoothly a page loads on a phone, where most people find you first.
+
+Is yours above or below the line?
+
+Method: Google Lighthouse, mobile, median of 3 runs per site. Measured by Vernau, October 2026.
+
+DM AUDIT for a free, honest website teardown.
+
+#bauunternehmen #architektur #baubranche #schweiz #websitedesign #pagespeed #mobilefirst #vernau

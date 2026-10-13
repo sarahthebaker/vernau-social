@@ -1,0 +1,48 @@
+name: publish
+# Every 15 minutes: publish queued posts whose time has come, then commit the
+# updated queue. GitHub emails the repo owner when a run fails.
+on:
+  schedule:
+    - cron: "4,19,34,49 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (publish nothing)"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publish due posts
+        id: run
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          PAGES_BASE: ${{ vars.PAGES_BASE }}
+          DRY_RUN: ${{ (inputs.dry_run || vars.DRY_RUN == '1') && '1' || '0' }}
+        run: python3 publisher/publish.py
+        continue-on-error: true
+      - name: Save queue state
+        run: |
+          git config user.name "vernau-social bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A queue media
+          if ! git diff --cached --quiet; then
+            git commit -m "publish: update queue $(date -u +%FT%RZ)"
+            git pull --rebase --autostash
+            git push
+          fi
+      - name: Fail if a post failed
+        if: steps.run.outcome == 'failure'
+        run: exit 1

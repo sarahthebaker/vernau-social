@@ -1,0 +1,13 @@
+Where do people actually look on a web page? Mostly right at the top.
+
+In Nielsen Norman Group's eye-tracking research, people spent about 57% of their viewing time on the first screen of a page and 17% on the second. Everything below that shared the remaining 26%.
+
+So the top of your homepage has one job: say what you do, who it's for, where you are and how to book, before anyone has to scroll.
+
+Does yours?
+
+Source: Nielsen Norman Group, "Scrolling and Attention" (2018, desktop eye-tracking study).
+
+DM AUDIT for a free, honest website teardown.
+
+#ux #webdesign #homepage #privatepractice #praxis #conversion #websitedesign #vernau

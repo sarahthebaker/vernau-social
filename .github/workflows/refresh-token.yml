@@ -1,0 +1,22 @@
+name: refresh-token
+# Instagram long-lived tokens last 60 days from each refresh. Refresh weekly and
+# store the new one back into the IG_TOKEN secret (needs GH_PAT with
+# "Secrets: read and write" on this repo).
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh
+        id: r
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 publisher/refresh_token.py
+      - name: Store new token
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: gh secret set IG_TOKEN --repo "$GITHUB_REPOSITORY" --body "${{ steps.r.outputs.token }}"
