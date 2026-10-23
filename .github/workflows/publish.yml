@@ -21,6 +21,10 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+      # a queued run may have been triggered before the previous run saved the queue;
+      # pull so it never re-posts something already published
+      - name: Get latest queue
+        run: git pull --ff-only origin main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
