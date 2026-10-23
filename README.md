@@ -23,9 +23,7 @@ Instagram's own publishing API. Nothing to install on the laptop beyond `gh`.
 
 | Kind | When |
 |---|---|
-| Carousel | every day 08:30 |
-| Single image | every day 18:30 |
-| Reel | Tue, Thu, Sat 12:15 |
+| Reel | every day 12:00 and 18:30 (`"times"` list; `"time"` still works for one slot) |
 
 - Each new post takes the next free slot at least 12 hours ahead, so there's
   always a window to stop it.

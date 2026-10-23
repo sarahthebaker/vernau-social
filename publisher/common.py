@@ -45,12 +45,13 @@ def save(item: dict) -> None:
 def next_slot(kind: str, taken: set[str], after: datetime) -> datetime:
     """First slot for this kind of post after `after` that nothing else holds."""
     slot = SCHEDULE["slots"][kind]
-    hh, mm = (int(x) for x in slot["time"].split(":"))
+    times = sorted(tuple(int(x) for x in t.split(":")) for t in slot.get("times", [slot.get("time")]))
     day = after.astimezone(TZ).date()
     for _ in range(400):
         if DAYS[day.weekday()] in slot["days"]:
-            t = datetime(day.year, day.month, day.day, hh, mm, tzinfo=TZ)
-            if t > after and t.isoformat() not in taken:
-                return t
+            for hh, mm in times:
+                t = datetime(day.year, day.month, day.day, hh, mm, tzinfo=TZ)
+                if t > after and t.isoformat() not in taken:
+                    return t
         day += timedelta(days=1)
     raise RuntimeError(f"no free {kind} slot found")
