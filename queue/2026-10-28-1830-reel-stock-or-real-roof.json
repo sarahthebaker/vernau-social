@@ -6,12 +6,12 @@
     "media/2026-10-28-1830-reel-stock-or-real-roof/reel.mp4"
   ],
   "publish_at": "2026-10-23T20:44:00+02:00",
-  "status": "queued",
+  "status": "published",
   "attempts": 0,
   "error": null,
-  "published_at": null,
-  "ig_media_id": null,
-  "permalink": null,
+  "published_at": "2026-10-23T20:50:12+02:00",
+  "ig_media_id": "18138545407623076",
+  "permalink": "https://www.instagram.com/reel/De2PU9KoB0a/",
   "source": "/home/umar/Projects/vernau-reels/out/daily/stock-or-real-roof.mp4",
   "thumb_offset_ms": 6333
 }

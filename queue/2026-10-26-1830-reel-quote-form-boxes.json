@@ -6,12 +6,12 @@
     "media/2026-10-26-1830-reel-quote-form-boxes/reel.mp4"
   ],
   "publish_at": "2026-10-23T20:42:00+02:00",
-  "status": "queued",
+  "status": "published",
   "attempts": 0,
   "error": null,
-  "published_at": null,
-  "ig_media_id": null,
-  "permalink": null,
+  "published_at": "2026-10-23T20:48:13+02:00",
+  "ig_media_id": "17991725205066619",
+  "permalink": "https://www.instagram.com/reel/De2PGT2AYww/",
   "source": "/home/umar/Projects/vernau-reels/out/daily/quote-form-boxes.mp4",
   "thumb_offset_ms": 1000
 }

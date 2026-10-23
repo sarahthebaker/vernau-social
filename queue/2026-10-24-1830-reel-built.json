@@ -6,12 +6,12 @@
     "media/2026-10-24-1830-reel-built/reel.mp4"
   ],
   "publish_at": "2026-10-23T20:40:00+02:00",
-  "status": "queued",
+  "status": "published",
   "attempts": 0,
   "error": null,
-  "published_at": null,
-  "ig_media_id": null,
-  "permalink": null,
+  "published_at": "2026-10-23T20:46:34+02:00",
+  "ig_media_id": "17998699101047466",
+  "permalink": "https://www.instagram.com/reel/De2O6ZpDEu7/",
   "source": "/home/umar/Downloads/Vernau Reels - Solar/2 - built/built.mp4",
   "thumb_offset_ms": 9000
 }

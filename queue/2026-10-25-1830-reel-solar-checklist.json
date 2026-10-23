@@ -6,12 +6,12 @@
     "media/2026-10-25-1830-reel-solar-checklist/reel.mp4"
   ],
   "publish_at": "2026-10-23T20:41:00+02:00",
-  "status": "queued",
+  "status": "published",
   "attempts": 0,
   "error": null,
-  "published_at": null,
-  "ig_media_id": null,
-  "permalink": null,
+  "published_at": "2026-10-23T20:47:22+02:00",
+  "ig_media_id": "18117634399793152",
+  "permalink": "https://www.instagram.com/reel/De2PASbjm5J/",
   "source": "/home/umar/Projects/vernau-reels/out/ugc/solar-checklist.mp4",
   "thumb_offset_ms": 17000
 }
