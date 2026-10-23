@@ -6,12 +6,12 @@
     "media/2026-10-23-1715-reel-after-hours/reel.mp4"
   ],
   "publish_at": "2026-10-23T17:15:00+02:00",
-  "status": "queued",
+  "status": "published",
   "attempts": 0,
   "error": null,
-  "published_at": null,
-  "ig_media_id": null,
-  "permalink": null,
+  "published_at": "2026-10-23T17:31:09+02:00",
+  "ig_media_id": "17878724709567047",
+  "permalink": "https://www.instagram.com/reel/De14i23gUdh/",
   "source": "/home/umar/Downloads/Vernau Reels - Solar/1 - after-hours/after-hours.mp4",
   "thumb_offset_ms": 9000
 }
