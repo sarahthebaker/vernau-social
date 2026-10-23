@@ -1,19 +1,7 @@
 {
   "timezone": "Europe/Zurich",
   "slots": {
-    "carousel": {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun"
-      ],
-      "time": "08:30"
-    },
-    "single": {
+    "reel": {
       "days": [
         "mon",
         "tue",
@@ -24,14 +12,6 @@
         "sun"
       ],
       "time": "18:30"
-    },
-    "reel": {
-      "days": [
-        "tue",
-        "thu",
-        "sat"
-      ],
-      "time": "12:15"
     }
   },
   "min_lead_hours": 12,
