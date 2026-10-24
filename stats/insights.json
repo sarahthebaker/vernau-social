@@ -1,11 +1,96 @@
 {
-  "pulled": "2026-10-23T15:32+00:00",
+  "pulled": "2026-10-24T08:49+00:00",
   "account": {
     "username": "vernau.ch",
     "followers_count": 1,
-    "media_count": 9
+    "media_count": 14
   },
   "posts": [
+    {
+      "media_id": "18138545407623076",
+      "slug": "2026-10-28-1830-reel-stock-or-real-roof",
+      "type": "reel",
+      "posted": "2026-10-23T18:50:06+0000",
+      "permalink": "https://www.instagram.com/reel/De2PU9KoB0a/",
+      "hook": "Is that your roof, or a stock photo?",
+      "reach": 1,
+      "views": 1,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 3072,
+      "ig_reels_video_view_total_time": 6144
+    },
+    {
+      "media_id": "17940715494383557",
+      "slug": "2026-10-27-1830-reel-late-reply-chat",
+      "type": "reel",
+      "posted": "2026-10-23T18:49:16+0000",
+      "permalink": "https://www.instagram.com/reel/De2PQP6lRMF/",
+      "hook": "Your reply time is part of your website.",
+      "reach": 2,
+      "views": 2,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 2225,
+      "ig_reels_video_view_total_time": 6676
+    },
+    {
+      "media_id": "17991725205066619",
+      "slug": "2026-10-26-1830-reel-quote-form-boxes",
+      "type": "reel",
+      "posted": "2026-10-23T18:48:05+0000",
+      "permalink": "https://www.instagram.com/reel/De2PGT2AYww/",
+      "hook": "How many boxes does your quote form have?",
+      "reach": 2,
+      "views": 2,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 1679,
+      "ig_reels_video_view_total_time": 5037
+    },
+    {
+      "media_id": "18117634399793152",
+      "slug": "2026-10-25-1830-reel-solar-checklist",
+      "type": "reel",
+      "posted": "2026-10-23T18:47:17+0000",
+      "permalink": "https://www.instagram.com/reel/De2PASbjm5J/",
+      "hook": "The 5 things I check first on any solar installer's website. Your customers check the same things, usually in the evening, on their phone.",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 1801,
+      "ig_reels_video_view_total_time": 1801
+    },
+    {
+      "media_id": "17998699101047466",
+      "slug": "2026-10-24-1830-reel-built",
+      "type": "reel",
+      "posted": "2026-10-23T18:46:28+0000",
+      "permalink": "https://www.instagram.com/reel/De2O6ZpDEu7/",
+      "hook": "We built a solar website from scratch to show what one can do.",
+      "reach": 2,
+      "views": 2,
+      "saved": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 1660,
+      "ig_reels_video_view_total_time": 6642
+    },
     {
       "media_id": "17878724709567047",
       "slug": "2026-10-23-1715-reel-after-hours",
@@ -13,15 +98,15 @@
       "posted": "2026-10-23T15:31:03+0000",
       "permalink": "https://www.instagram.com/reel/De14i23gUdh/",
       "hook": "Sunday, 21:40. Your installer's office is closed. Your next customer is still comparing.",
-      "reach": 0,
-      "views": 0,
+      "reach": 1,
+      "views": 1,
       "saved": 0,
       "shares": 0,
       "comments": 0,
-      "likes": 0,
-      "total_interactions": 0,
-      "ig_reels_avg_watch_time": 0,
-      "ig_reels_video_view_total_time": 0
+      "likes": 1,
+      "total_interactions": 1,
+      "ig_reels_avg_watch_time": 30991,
+      "ig_reels_video_view_total_time": 123967
     },
     {
       "media_id": "18207778258374238",
@@ -35,10 +120,10 @@
       "saved": 0,
       "shares": 0,
       "comments": 1,
-      "likes": 4,
-      "total_interactions": 5,
-      "ig_reels_avg_watch_time": 6986,
-      "ig_reels_video_view_total_time": 62879
+      "likes": 3,
+      "total_interactions": 4,
+      "ig_reels_avg_watch_time": 6637,
+      "ig_reels_video_view_total_time": 66374
     },
     {
       "media_id": "18033923303846797",
@@ -71,8 +156,8 @@
       "comments": 2,
       "likes": 3,
       "total_interactions": 6,
-      "ig_reels_avg_watch_time": 3568,
-      "ig_reels_video_view_total_time": 389013
+      "ig_reels_avg_watch_time": 3571,
+      "ig_reels_video_view_total_time": 392823
     },
     {
       "media_id": "18188204284416836",
