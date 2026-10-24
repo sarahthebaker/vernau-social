@@ -6,9 +6,9 @@
     "media/2026-10-24-1830-reel-finance-own-page/reel.mp4"
   ],
   "publish_at": "2026-10-24T18:30:00+02:00",
-  "status": "queued",
-  "attempts": 2,
-  "error": "POST 17841457971590542/media → HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AVEnOUKE6DT-XYZZjKCCZx0\"}}",
+  "status": "failed",
+  "attempts": 3,
+  "error": "POST 17841457971590542/media → HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Az7dWAibzUahciJmOGoK8uk\"}}",
   "published_at": null,
   "ig_media_id": null,
   "permalink": null,
