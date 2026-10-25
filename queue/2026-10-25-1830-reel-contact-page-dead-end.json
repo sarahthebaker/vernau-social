@@ -6,9 +6,9 @@
     "media/2026-10-25-1830-reel-contact-page-dead-end/reel.mp4"
   ],
   "publish_at": "2026-10-25T18:30:00+01:00",
-  "status": "queued",
-  "attempts": 2,
-  "error": "POST 17841457971590542/media → HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AFYOLB6DP3ZdDEeRZNTEhxi\"}}",
+  "status": "failed",
+  "attempts": 3,
+  "error": "POST 17841457971590542/media → HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AhoSQvGbd9SW4suzSc9tLNJ\"}}",
   "published_at": null,
   "ig_media_id": null,
   "permalink": null,
