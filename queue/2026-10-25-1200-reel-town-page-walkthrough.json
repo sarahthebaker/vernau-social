@@ -6,9 +6,9 @@
     "media/2026-10-25-1200-reel-town-page-walkthrough/reel.mp4"
   ],
   "publish_at": "2026-10-25T12:00:00+01:00",
-  "status": "queued",
-  "attempts": 2,
-  "error": "POST 17841457971590542/media → HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACDwQ4DCTRipI-0kVJHGKXi\"}}",
+  "status": "failed",
+  "attempts": 3,
+  "error": "POST 17841457971590542/media → HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AhQkg07QAvKnDRpFlH0FcXt\"}}",
   "published_at": null,
   "ig_media_id": null,
   "permalink": null,
