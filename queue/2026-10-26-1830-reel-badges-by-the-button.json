@@ -6,9 +6,9 @@
     "media/2026-10-26-1830-reel-badges-by-the-button/reel.mp4"
   ],
   "publish_at": "2026-10-26T18:30:00+01:00",
-  "status": "queued",
+  "status": "missed",
   "attempts": 2,
-  "error": "POST 17841457971590542/media → HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AJPBk744smTVaTmSbmU2cyA\"}}",
+  "error": "9 h late (limit 6 h); not published. Use tools/posts.py move or release.",
   "published_at": null,
   "ig_media_id": null,
   "permalink": null,
